@@ -1,0 +1,194 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family:poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+	background-color: #fff;
+	-webkit-box-shadow: 0 8px 6px -6px #ccc;
+	-moz-box-shadow: 0 8px 6px -6px #ccc;
+	box-shadow: 0 8px 6px -6px #ccc;
+	position: fixed;
+	width: 100%;
+}
+.d-flex{
+	display: flex;
+}
+.justify-between{
+	justify-content: space-between;
+}
+nav ul{
+	list-style-type: none;
+	margin-top: 20px;
+}
+nav ul li{
+	display: inline-block;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	margin-right: 25px;
+	transition: 1s all;	
+	font-weight: 900;
+}
+nav ul li a.active{
+	color: dodgerblue;	
+} 
+nav ul li a:hover{
+	color: dodgerblue;
+	transition: 1s all;
+} 
+nav ul li a i{
+	margin-right: 5px;
+}
+div.brand{
+	padding: 20px;
+}
+div.brand a{
+	color: dodgerblue;
+	font-weight: 900;
+	font-size: 20px;
+	text-decoration: none;	
+}
+section#landing{
+	background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../imgs/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 30vh;
+	color: #fff;
+	padding-left: 20px;
+	padding-bottom: 20vh;
+}
+section#landing > div{
+	width: 70%;
+}
+section#landing h1{
+	font-size: 50px;
+	font-weight: 900;
+}
+section#landing p{
+	line-height: 30px;
+	font-size: 25px;
+	color: #ccc;
+}
+section#landing button{
+	padding: 10px;
+	background-color: dodgerblue;
+	border: 0px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 900;
+	border-radius: 10px;
+	transition: 1s all;
+}
+section#landing button:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 1s all;
+}
+section#brief{
+	margin:70px 50px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: center;
+}
+.justify-around{
+	justify-content: space-around;
+}
+.text-center{
+	text-align: center;
+}
+section#services{
+	padding: 50px;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+	text-align: center;
+	color: #fff;
+}
+section#services h1{
+	font-weight: 900;
+	font-size: 40px;
+}
+section#services p{
+	margin-bottom: 50px;
+}
+section#services .d-flex div{
+	padding: 20px;
+	margin: 5px;
+	
+
+}
+section#services .d-flex div:first-child{
+	background-color: dodgerblue;
+	-webkit-box-shadow: 0 8px 6px -6px dodgerblue;
+	-moz-box-shadow: 0 8px 6px -6px dodgerblue;
+	box-shadow: 0 8px 6px -6px dodgerblue;
+}
+section#services .d-flex div:nth-child(2){
+	background-color: #fff;
+	color: #000;
+	-webkit-box-shadow: 0 8px 6px -6px #fff;
+	-moz-box-shadow: 0 8px 6px -6px #fff;
+	box-shadow: 0 8px 6px -6px #fff;
+}
+section#services .d-flex div:last-child{
+	background-color: #000;
+	color: #fff;
+	-webkit-box-shadow: 0 8px 6px -6px #000;
+	-moz-box-shadow: 0 8px 6px -6px #000;
+	box-shadow: 0 8px 6px -6px #000;
+}
+
+section#newsletter{
+	padding: 50px;
+	background-color: #fff;
+}
+section#newsletter h1{
+	font-weight: 900;
+	font-size: 40px;
+	text-align: center;
+}
+section#newsletter p{
+	text-align: center;
+}
+section#newsletter form{
+	text-align: center;
+	-webkit-box-shadow: 0 8px 6px 6px #ccc;
+	-moz-box-shadow: 0 8px 6px 6px #ccc;
+	box-shadow: 0 8px 6px 6px #ccc;
+	padding: 30px;
+}
+section#newsletter form label{
+	font-weight: 900;
+}
+section#newsletter form input{
+	width: 50%;
+	border: 2px solid #ccc;
+	border-radius: 2px;
+	padding: 10px;
+	text-align: center;
+}
+section#newsletter button{
+	padding: 10px;
+	background-color: dodgerblue;
+	border: 0px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 900;
+	border-radius: 0px 10px;
+	transition: 1s all;
+}
+section#newsletter button:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 1s all;
+}
+footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}

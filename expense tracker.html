@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" href="img/seasons.jpg">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" 
+integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+<link rel="stylesheet" href="css/Styles.css"/>
+<link rel="stylesheet" href="css/expense.css">
+<title>FemStusuite</title>
+</head>
+<body>
+<header>
+    <div class="d-flex justify-between">
+    <div class="brand">
+    <img class="logo" src="images/logo.png">
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                  <a href="Homepage.html" class="active"><button class="headerButton">Home</button></a>
+                </li>
+                <li>
+                  <li>
+                    <a href="services.html"><button class="headerButton">Services</button></a>
+			         	</li>
+			        	<li>
+                    <a href="complete.html"><button class="headerButton">To-do List</button></a>
+                </li>
+                <li>
+                    <a href="book.html"><button class="headerButton">BookFinder</button></a>
+			        	</li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+         <div class="total">
+            <h2>Total Budget : <span id="totalBudget">0</span></h2>
+            <h2>Current Balance : <span id="currentBalance">0</span></h2> 
+            
+         </div>
+         <div class="container pt-5 cont">
+          <div class="row">
+        <div class="col-sm-2"></div>
+          <div class="col-sm-4">
+           <div class="card card1">
+             <div class="card-body">
+              <input type="number" id="money" placeholder="add money"><br>
+              <button onclick="addMoney()">Add Money</button>
+             </div>
+             </div>
+          </div>
+      
+          <div class="col-sm-4 py-2">
+             <div class="card card2">
+             <div class="card body">
+             <input type="text" id="expenseName" placeholder="discription"><br>
+             <input type="number" id="expenseAmount" placeholder="cost"><br>
+             <button class ="addexpense" onclick="addExpense()">Add Expense</button>
+             </div>
+             </div>
+          </div>
+          <div class="col-sm-2"></div>
+        </div></div>
+        <h2 class="h2 text-align-center">Added Expenses</h2>
+
+       <div class="container cont">
+        <div class="card center" id="addedExpenses">
+         
+      
+           </div>             
+        </div>
+  </div>
+
+</section>
+<footer>
+  <div class="foot">
+     &copy;2020-made by Roselyn
+</div> 
+</footer>
+  
+<script src="expense-1.js"></script>
+</body></html>

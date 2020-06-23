@@ -1,0 +1,40 @@
+.user{ 
+   padding-top: 18vh;
+   text-align: center;
+}
+.click{
+   font-family: poppins;
+   font-style: italic;
+   color: #00004d;
+
+}
+.card-text{
+    color: #00004d;
+}
+.card-text1{
+    color: #00004d;
+}
+.img{
+    width:40px;
+    height:40px;
+    
+}
+.savings{
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 5vh;
+    text-align: justify;
+}
+.card{
+    width: 400px;
+    margin-left: 5px;
+   margin-right: 5px;
+   margin-right: 1px; 
+   
+}
+.card-img{
+    width: 400px;
+}
+#card1{
+    margin-right:50px;
+}

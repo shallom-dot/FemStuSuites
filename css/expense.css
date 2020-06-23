@@ -1,0 +1,46 @@
+.total{
+padding-top: 25vh;
+    text-align: center;
+    color: #3f3d56;
+    font-family: poppins;
+    font-weight: bold;
+}
+.total{
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: -3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+    @keyframes anim {
+        from{top:30vh;}
+        to{top:35vh;} 
+    }   
+.cont{
+    background-color:#f5f2f2;
+    align-content: center;
+    
+}
+.h2{
+   text-align: center; 
+}
+.center{
+    text-align: center;
+   align-content: center;
+    
+}
+.card1{
+text-align: center;
+}
+.card2{
+text-align: center;
+padding: 5px 35px 5px 55px;
+}
+.addxpense{
+  border-radius: 8px; 
+  width: 100px;
+}
+#expenseName{
+   padding-bottom: 5px; 
+}
+

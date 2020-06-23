@@ -1,0 +1,31 @@
+.demo{
+    background-color: #f5f2f2;
+    border-radius: 8px;
+    border: round;
+    padding-top:0;
+    font-size:px;
+
+}
+.div1{
+    width: 100pxpx;
+    height: 200px;
+    margin:10px auto;
+    color:black;
+    border-radius: 8px; 
+    padding: 5px;
+}
+.heading{
+    text-align: center;
+    padding-top: 20vh;
+}
+.card color{
+    background-color: #f5f2f2;
+}
+.h1{
+    color: #00004d;
+    font-style: italic;
+}
+.black{
+    height:50px ;
+    width: 50px;
+}
