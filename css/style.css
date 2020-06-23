@@ -32,9 +32,7 @@ nav ul li a{
 	transition: 1s all;	
 	font-weight: 900;
 }
-nav ul li a.active{
-	color: dodgerblue;	
-} 
+	
 nav ul li a:hover{
 	color: dodgerblue;
 	transition: 1s all;
